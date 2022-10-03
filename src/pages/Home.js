@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main>
       <SearchForm />
-      <CocktailList />S
+      <CocktailList />
     </main>
   )
 }
