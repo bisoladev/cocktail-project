@@ -18,9 +18,10 @@ const CocktailList = () => {
     );
   }
   return (
-    <div>
-      <h2>cocktail list component</h2>
-    </div>
+    <section className="section">
+      <h2 className="section-title">cocktail list component</h2>
+      <h2>Cocktail list</h2>
+    </section>
   );
 };
 
