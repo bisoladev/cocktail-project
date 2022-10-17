@@ -5,10 +5,11 @@ Variables
 */
 :root {
   --primaryLightColor: #DBDBDB;
-  --primaryColor: #33689C;
+  --primaryColor: #1f5891;
+  --primaryColorTwo:rgb(197, 9, 44)1;
   --mainWhite: #fff;
   --mainBackground: #F0F0F0;
-  --mainBlack: rgb(99, 108, 119);
+  --mainBlack: rgb(71, 79, 89);
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 0.22rem;
@@ -284,10 +285,11 @@ Form
 
 .form-control label {
   display: block;
-  margin-bottom: 1.25rem;
-  font-weight: bold;
-  letter-spacing: 0.25rem;
+  margin-bottom: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
   color: var(--primaryColor);
+  font-size: 1.3rem;
 }
 .form-control input {
   width: 100%;
