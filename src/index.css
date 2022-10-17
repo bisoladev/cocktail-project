@@ -8,13 +8,13 @@ Variables
   --primaryColor: #33689C;
   --mainWhite: #fff;
   --mainBackground: #F0F0F0;
-  --mainBlack: #222;
+  --mainBlack: rgb(99, 108, 119);
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 0.3rem;
+  --mainSpacing: 0.22rem;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.2);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.2);
-  --mainBorderRadius: 0.3rem;
+  --mainBorderRadius: 0.35rem;
   --smallWidth: 85vw;
   --maxWidth: 40rem;
   --fullWidth: 1170px;
@@ -151,9 +151,9 @@ Navbar
   display: inline-block;
   font-weight: bold;
   margin-right: 0.5rem;
-  font-weight: 400;
-  letter-spacing: 2px;
-  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2.25px;
+  font-size: 1.15rem;
   padding: 0.25rem 0.5rem;
   transition: var(--mainTransition);
 }
